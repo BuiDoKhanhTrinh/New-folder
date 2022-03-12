@@ -1,0 +1,175 @@
+<html lang="vi">
+    <head>
+    <title>Thay lời muốn nói</title>
+      <style>
+     .bgr {
+      background-color: #f890cd;
+      background-image: linear-gradient(rgb(241, 185, 232),pink);
+    width: 100%;
+    height: 500px;
+   }
+    .wrt {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 70px;
+        text-align:center;
+    }
+    .wrt1 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+   .chobut{
+       text-align: center;
+   }
+   .button{
+       position:absolute;
+       top:50%;
+      
+       background-image: 
+           linear-gradient(135deg,#008aff, #86d472);
+        border-radius: 6px;
+        box-sizing: border-box;
+        color: #ffffff;
+        display: block;
+        height: 50px;
+        font-size: 1.4em;
+        font-weight: 600;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+       
+        width: 20em;
+       
+        z-index: 2;
+   }
+   </style>
+    </head>
+    <body>
+      <div class="bgr">
+     
+        <h1 id="h1" class="wrt">Hi!</h1>
+          
+        <h2 id="h2" class="wrt1" class="button">Chào cậu (≧∀≦ゞ </h2>
+           <h2 id="h22" class="wrt1" class="button">Tớ có chuyện muốn nói với cậu </h2>
+           <h2 id="h23" class="wrt1" class="button">cậu có muốn nghe không? </h2>
+           
+           <div id="butto" class="chobut">
+            <button id="but3" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butno1()">Cút ( ￣＾￣)</button>
+       <br>
+           
+       <button id="but1" class="button" style="margin-left: auto;margin-right: auto;" onclick="buty()">Ờ, nghe nè (^_^)</button> 
+        </div><br>
+       
+        <div id="butto" class="chobut">
+            <button id="but2" class="button" style="margin-left: auto;margin-right: auto;" onclick="butno()">Cút ( ￣＾￣)</button>
+        </div><br><br><br><br>
+       
+        <div id="butto" class="chobut">
+            <button id="but4" class="button" style="margin-left: 20px;display: none;" onclick="butno2()">Cút ( ￣＾￣)</button>
+        </div>
+        
+        <h1 id="t1" class="wrt" style="font-size:20px;display:none;">Nhìn cậu giống một người thân tớ á</h1>
+        <h1 id="t11" class="wrt" style="font-size:20px;display:none;">cậu muốn biết là ai khum (〃∇〃)</h1>
+       
+        <div id="butto1" class="chobut">
+            <button id="butbh1" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butbh1()">Tất niên rồi </button>
+       <br>
+        <button id="butbh2" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butbh2()">Hông, kmm:)</button>
+   
+   <button id="butbh3" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butbh3()">Hông, kmm:)</button>
+   <br>
+        </div>
+        <h1 id="t2" class="wrt" style="font-size:20px;display:none;" >Nhìn cậu giống con dâu mẹ tớ á 😍</h1>
+        <h2 id="t3" class="wrt" style="font-size:20px;display:none;" >Cậu có muốn làm người iu tớ không? 😚</h2>
+       
+        <div id="butto1" class="chobut">
+            <button id="butbhh1" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butbhh1()">Ok, tất nhiên rồi </button>
+       <br>
+        <button id="butbhh2" class="button" style="margin-left: auto;margin-right: auto;display: none;" onclick="butbhh2()">Hông thèm đâu </button>
+   <br>
+   <button id="butbhh3" class="button" style="margin-left: 10px;display: none;" onclick="butbhh3()">Hông thèm đâu </button>
+   <br>
+   <button id="butbhh4" class="button" style="margin-left:500px;display: none;" onclick="butbhh4()">Hông thèm đâu </button>
+   <br>
+            <h2 id="epbuoc" class="wrt" style="font-size:20px;display:none;" >Cậu mà thoát trang, block tớ hay không thèm nói chuyện với tớ là cậu đồng ý đó nha 😝😝😝</h2>
+    
+    <h1 id="final" class="wrt" style="font-size:30px;display:none;">Cảm ơn cậu nhiều 🤗🤗🤗</h1>
+    <h1 id="final1" class="wrt" style="font-size:30px;display:none;">❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</h1>
+    <h1 id="final2" class="wrt" style="font-size:30px;display:none;">Tớ yêu cậu nhiều lắm 😘😘😘</h1>
+</div>
+        
+<script>
+    function butno(){
+        document.getElementById('but2').style.display="none";
+        document.getElementById('but3').style.display="block";
+        
+    }
+    function butno1(){
+        document.getElementById('but3').style.display="none";
+        document.getElementById('but4').style.display="block";
+       
+    }
+    function butno2(){
+        document.getElementById('but4').style.display="none";
+     
+    }
+    function buty(){
+        document.getElementById('h1').style.display="none";
+        document.getElementById('h2').style.display="none";
+        document.getElementById('h22').style.display="none";
+        document.getElementById('but1').style.display="none";
+        document.getElementById('but2').style.display="none";
+        document.getElementById('but3').style.display="none";
+        document.getElementById('but4').style.display="none";
+        document.getElementById('h23').style.display="none";
+        document.getElementById('t1').style.display="block";
+        document.getElementById('t11').style.display="block";
+        document.getElementById('butbh1').style.display="block";
+        document.getElementById('butbh2').style.display="block";
+    }
+    function butbh1(){
+        document.getElementById('t1').style.display="none";
+        document.getElementById('t11').style.display="none";
+        document.getElementById('butbh1').style.display="none";
+        document.getElementById('butbh2').style.display="none";
+        document.getElementById('t2').style.display="block";
+        document.getElementById('t3').style.display="block";
+        document.getElementById('butbhh1').style.display="block";
+        document.getElementById('butbhh2').style.display="block";
+    }
+    function butbh2(){
+        alert('Sao cậu lại không muốn °o°, cậu sẽ bất ngờ lắm đấy ');
+        document.getElementById('butbh2').style.display="none";
+        document.getElementById('butbh3').style.display="block";
+    }
+    function butbh3(){
+        document.getElementById('butbh3').style.display="none";
+    }
+    function butbhh1(){
+        document.getElementById('t3').style.display="none";
+        document.getElementById('t2').style.display="none";
+        document.getElementById('epbuoc').style.display="none";
+        document.getElementById('butbhh1').style.display="none";
+        document.getElementById('butbhh2').style.display="none";
+        document.getElementById('butbhh3').style.display="none";
+        document.getElementById('butbhh4').style.display="none";
+        document.getElementById('final').style.display="block";
+        document.getElementById('final1').style.display="block";
+        document.getElementById('final2').style.display="block";
+    }
+    function butbhh2(){
+        document.getElementById('butbhh2').style.display="none";
+        document.getElementById('butbhh3').style.display="block";
+        document.getElementById('epbuoc').style.display="block";
+    }
+    function butbhh3(){
+        document.getElementById('butbhh3').style.display="none";
+        document.getElementById('butbhh4').style.display="block";
+    }
+    function butbhh4(){
+        document.getElementById('butbhh4').style.display="none";
+
+    }
+</script>
+    </body>
+
